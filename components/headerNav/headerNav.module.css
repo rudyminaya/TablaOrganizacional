@@ -1,0 +1,23 @@
+.contenedor {
+    @apply flex justify-between px-5 bg-gradient-to-r from-primario to-secundario py-2;
+}
+.leftSide {
+    @apply flex items-center;
+}
+.itemLeft {
+    @apply mr-5 text-white;
+    @apply hover:bg-white hover:bg-opacity-5 p-2 rounded-md transition-all ease-linear duration-75;
+}
+.rightSide {
+    @apply flex items-center;
+}
+.itemRight {
+    @apply px-5 text-white;
+}
+
+.icono {
+    @apply border-r border-l border-gray-500 border-opacity-40 px-5;
+}
+.logoNegro {
+    @apply bg-white rounded-md p-2;
+}
